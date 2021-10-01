@@ -14,7 +14,7 @@
           echo "any command--"$i
         done
         ```
-     - Now suppose you just want to give a range  
+     - Now suppose you just want to give a range `{begin..end}`
          - ``` 
             ## it will starts for 1 and end to 10 
             ## the syntax basically represents {BeginNumber..EndNumber}
@@ -25,14 +25,14 @@
             done
             ```
 
-      - Range with increment
+      - Range with increment `{begin..end..increment}`
         - ```
             ## Now lets suppose you want to increment the variable count for eg: expected output to come like :
             ## countTime--1
             ## countTime--3
             ## the series will be like 1,3,5,7,9
 
-            ## the syntax is having one extra argument which is increment value{begin..end..increment}
+            ## the syntax is having one extra argument which is increment value {begin..end..increment}
             for i in {1..10..2}
             do
               echo "Odd-Series-Count--"$i
