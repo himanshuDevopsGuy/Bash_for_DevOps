@@ -4,8 +4,7 @@
 
 - Example 1
   - for_numeric.sh 
-    - 
-      ```
+    - ```
         #! /bin/bash 
         # i --> you can consider as variable
 
@@ -16,8 +15,7 @@
         done
         ```
         
-     - 
-        ``` 
+     - ``` 
         ## it will starts for 1 and end to 10 
         ## the syntax basically represents {BeginNumber..EndNumber}
 
@@ -27,8 +25,7 @@
         done
         ```
 
-       -
-          ```
+      - ```
           ## Now lets suppose you want to increment the variable count for eg: expected output to come like :
           ## countTime--1
           ## countTime--3
