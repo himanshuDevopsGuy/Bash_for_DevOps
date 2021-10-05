@@ -49,3 +49,8 @@
       echo "HI"
     done
   ```
+## for with expressions ➿
+
+- ```
+
+  ```
