@@ -1,6 +1,6 @@
 # Getting started with For loops
 
-## For with Numeric Values
+## For with Numeric Values ➿
 
 - Example 1
   - for_numeric.sh 
@@ -39,3 +39,13 @@
             done
 
             ```
+## Infinite Loops ➿
+
+- ```
+    #! /bin/bash
+
+    for (( ; ; ))
+    do
+      echo "HI"
+    done
+  ```
