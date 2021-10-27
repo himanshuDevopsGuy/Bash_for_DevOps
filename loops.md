@@ -15,3 +15,11 @@
 
 ## While Loop
 
+```
+#!/bin/bash
+while[condition]
+do
+  command 1
+  command n
+done
+```
