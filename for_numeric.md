@@ -11,6 +11,7 @@
     Command n
   done
 ```
+
 - ```
 for i in {Starting_series_number..Ending_series_number..increment_number}
 do
