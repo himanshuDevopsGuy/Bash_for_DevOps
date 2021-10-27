@@ -16,7 +16,7 @@
 - 
 ```
 #! /bin/bash 
-for i in {Starting_series_number..Ending_series_number..increment_number}
+for i in {Begin_number..End_number..increment_number}
 do
   Command 1 
   Command n
