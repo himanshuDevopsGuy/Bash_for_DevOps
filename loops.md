@@ -15,6 +15,7 @@
 
 ## While Loop
 
+### Basic Syntax
 ```
 #!/bin/bash
 while[condition]
