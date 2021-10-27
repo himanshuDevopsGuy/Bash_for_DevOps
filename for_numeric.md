@@ -1,5 +1,24 @@
 # Getting started with For loops ➰
 
+## Basic syntax
+
+- ```
+  #! /bin/bash 
+
+  for i in num1 num2 numn
+  do
+    Command 1
+    Command n
+  done
+```
+- ```
+for i in {Starting_series_number..Ending_series_number..increment_number}
+do
+  Command 1 
+  Command n
+done
+```
+
 ## For with Numeric Values ➿
 
 - Example 1
