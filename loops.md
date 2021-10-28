@@ -3,6 +3,7 @@
 ## Why Loops
 
 - To perform a repetitive task for achieving the desired target we make use of loops.
+> Benefits
   - Saves Time
   - Reduces the probability of errors 
 
