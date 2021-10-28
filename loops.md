@@ -9,8 +9,8 @@
 
 ### Types of Loops in Bash
 
-- While
 - Until
+- While
 - For
 
 
