@@ -44,3 +44,8 @@ done
 - **While Loop** executes the block of code (enclosed in do...done) **when the condition is true** and **keeps executing that till the condition becomes false.** Once the condition becomes false, the while loop is terminated.
 
 - **Until Loop** executes the block of code (enclosed in do...done) **when the condition is false** and **keep executing that till the condition becomes true.** Once the condition becomes true, the until loop is terminated.
+
+
+- While with IFS
+- While with file handling 
+- Error handling 
