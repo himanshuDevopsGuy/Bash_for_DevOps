@@ -26,6 +26,18 @@ do
 done
 ```
 
+## Until Loop
+
+## Basic Syntax
+```
+until [condition];
+do
+  command 1
+  command n
+done
+
+```
+
 ### WHILE VS UNTIL LOOP 🤔
 
 - **While Loop** executes the block of code (enclosed in do...done) **when the condition is true** and **keeps executing that till the condition becomes false.** Once the condition becomes false, the while loop is terminated.
