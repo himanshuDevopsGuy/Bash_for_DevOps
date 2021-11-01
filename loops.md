@@ -30,6 +30,7 @@ done
 
 ## Basic Syntax
 ```
+#!/bin/bash
 until [condition];
 do
   command 1
