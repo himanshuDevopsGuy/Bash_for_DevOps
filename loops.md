@@ -7,16 +7,16 @@
   - Saves Time
   - Reduces the probability of errors 
 
-### Types of Loops in Bash
+### Types of Loops in Bash 
 
 - Until
 - While
 - For
 
 
-## While Loop
+## While Loop 
 
-### Basic Syntax
+### Basic Syntax 🔣
 ```
 #!/bin/bash
 while[condition]
