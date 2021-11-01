@@ -48,4 +48,6 @@ done
 
 - While with IFS
 - While with file handling 
+- Nested loops whileand for
 - Error handling 
+
