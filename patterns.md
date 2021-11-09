@@ -53,3 +53,27 @@ do
 done
 
 ```
+- Design 4
+```
+54321
+ 4321
+  321
+   21
+    1
+```
+
+```
+for((i=1;i<=5;i++))
+do
+        for((j=5;j>=5;j--))
+        do
+                if [ 5 -le $(($i+$j-1))  ]
+                then
+                        echo -ne "$j"
+                else
+                        echo -ne " "
+                fi
+        done
+        echo ""
+done
+```
