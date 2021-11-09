@@ -77,3 +77,32 @@ do
         echo ""
 done
 ```
+- Design 
+```
+    1
+   22
+  333
+ 4444
+55555
+
+```
+```
+#!/bin/bash
+
+
+
+for((i=1;i<=5;i++))
+do
+        for((j=1;j<=5;j++))
+        do
+                if [ 5 -le $(($i+$j-1))  ]
+                then
+                        echo -ne "$i"
+                else
+                        echo -ne " "
+                fi
+        done
+        echo ""
+done
+
+```
