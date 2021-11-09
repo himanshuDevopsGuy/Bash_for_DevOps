@@ -25,3 +25,31 @@
 5432
 54321
 ```
+- Design 3 
+```
+    5
+   45
+  345
+ 2345
+12345
+```
+```
+#!/bin/bash
+
+
+
+for((i=1;i<=5;i++))
+do
+        for((j=1;j<=5;j++))
+        do
+                if [ 5 -le $(($i+$j-1))  ]
+                then
+                        echo -ne "$j"
+                else
+                        echo -ne " "
+                fi
+        done
+        echo ""
+done
+
+```
