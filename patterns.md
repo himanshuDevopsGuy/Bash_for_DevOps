@@ -77,7 +77,7 @@ do
         echo ""
 done
 ```
-- Design 
+- Design 5
 ```
     1
    22
@@ -98,6 +98,36 @@ do
                 if [ 5 -le $(($i+$j-1))  ]
                 then
                         echo -ne "$i"
+                else
+                        echo -ne " "
+                fi
+        done
+        echo ""
+done
+
+```
+- Design 6
+
+```
+    1
+   12
+  123
+ 1234
+12345
+```
+```
+#!/bin/bash
+
+for((i=1;i<=5;i++))
+do
+        k=1
+        for((j=1;j<=5;j++))
+        do
+                if [[ 5 -le $(($i+$j-1)) ]]
+                then
+
+                        echo -ne "$k"
+                        k=$(($k+1))
                 else
                         echo -ne " "
                 fi
