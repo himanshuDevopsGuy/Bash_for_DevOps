@@ -85,6 +85,16 @@ done
           echo "any command--"$i
         done
         ```
+        ### bappan's issue
+```
+trainers = (mohan, bhupender, pankaj, Prakash, Vikas, Himanshu)
+echo ${trainers[@]}
+echo ${!trainers[@]}
+for i in ${!trainers[@]}
+do
+  echo "Trainer is ${trainer[$i]} and its index is $i"
+done  
+```
      - Now suppose you just want to give a range `{begin..end}`
          - ``` 
             ## it will starts for 1 and end to 10 
@@ -128,6 +138,9 @@ done
     echo $i
   done
   ```
+
+
+
 ## while vs for when to use and when not to 🤔
 
 - If you know prior to the loop how many repetitions you are going to need, such as iterating a countable number of static files to process, you should use a for loop. That is what for loops are good at doing. If you are unsure, and the loop may be different based on what happens during processing, such as some sort of iterative aggregation algorithm that fills an accumulator to a certain value, or a search algorithm that will drop out of the loop when it finds the value that it is looking for, then use a while loop.
