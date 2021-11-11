@@ -85,7 +85,7 @@ done
           echo "any command--"$i
         done
         ```
-        ### bappan's issue
+### bappan's issue
 ```
 trainers = (mohan, bhupender, pankaj, Prakash, Vikas, Himanshu)
 echo ${trainers[@]}
@@ -95,6 +95,8 @@ do
   echo "Trainer is ${trainer[$i]} and its index is $i"
 done  
 ```
+
+
      - Now suppose you just want to give a range `{begin..end}`
          - ``` 
             ## it will starts for 1 and end to 10 
