@@ -128,6 +128,6 @@ done
     echo $i
   done
   ```
-## while vs For when to use and when not to
+## while vs for when to use and when not to 🤔
 
 - If you know prior to the loop how many repetitions you are going to need, such as iterating a countable number of static files to process, you should use a for loop. That is what for loops are good at doing. If you are unsure, and the loop may be different based on what happens during processing, such as some sort of iterative aggregation algorithm that fills an accumulator to a certain value, or a search algorithm that will drop out of the loop when it finds the value that it is looking for, then use a while loop.
