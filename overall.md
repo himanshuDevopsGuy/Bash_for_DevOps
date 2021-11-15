@@ -171,6 +171,34 @@ done
 12345
 12345
 ```
+```
+i=1
+while [ $i -le 5 ]
+do
+        j=1
+        while [ $j -le 5 ]
+        do
+                echo -n "$j"
+                j=$(($j+1))
+        done
+        i=$(($i+1))
+        echo ""
+done
+```
+
+```
+for (( i=1; i<=5;i++))
+do
+        for (( j=1; j<=5; j++))
+        do
+                echo -n $j
+        done
+        echo ""
+done
+
+```
+
+
 - Design 1
 ```
 1
