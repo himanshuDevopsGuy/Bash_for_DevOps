@@ -247,3 +247,16 @@ do
         echo ""
 done
 ```
+## Select  statement
+
+```
+PS3="Enter a number: "
+
+select character in Pankaj Bhupender Prakash Mohan Vikas Himanshu
+do
+    echo "Selected character: $character"
+    echo "Selected number: $REPLY"
+done
+
+
+```
