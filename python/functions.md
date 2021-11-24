@@ -34,11 +34,11 @@ function_name()
 Example:
 
 ```python
-def rawat():
+def ot-python-scripters():
     print ('hello world')
 
 
-rawat()
+ot-python-scripters()
 ```
 
 output:
@@ -61,34 +61,34 @@ From a function's perspective:
 Syntax:
 
 ```python
-def rawat(name):
+def ot-python-scripters(name):
     print (f'hello {name}')
 
 
-rawat("rawat")
+ot-python-scripters("opstree")
 ```
 
 Output:
 
 ```
-hello rawat
+hello opstree
 ```
 
 Another example:
 
 ```python
-def rawat(first_name, second_name):
+def ot-python-scripters(first_name, second_name):
     print(f'{first_name} : {second_name}')
 
-rawat('bhupi', 'rawat')
-rawat('bhupi', 'singh')
+ot-python-scripters('Ops', 'tree')
+ot-python-scripters('tech', 'primo')
 ```
 
 Output:
 
 ```
-bhupi : rawat
-bhupi : singh
+Ops : tree
+tech : primo
 ```
 
 
@@ -100,16 +100,16 @@ bhupi : singh
 Example:
 
 ```python
-def rawat(first_name, second_name):
+def ot-python-scripters(first_name, second_name):
     print(f'{first_name} : {second_name}')
 
-rawat(first_name='bhupi', second_name='rawat')
+ot-python-scripters(first_name='Ops', second_name='tree')
 ```
 
 Output:
 
 ```
-bhupi : rawat
+Ops : tree
 ```
 
 ## <ins> RETURN STATEMENT </ins>
@@ -120,11 +120,11 @@ bhupi : rawat
 Example:
 
 ```python
-def rawat(number):
+def ot-python-scripters(number):
     return number * number
 
 
-result = rawat(3)
+result = ot-python-scripters(3)
 print (result)
 ```
 
