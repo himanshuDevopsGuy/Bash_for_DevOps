@@ -175,7 +175,9 @@ statement(s)
 ```
 
 Function Description
-abs() Returns the absolute value of a number
+| Function_name | Definition |
+| -----| ---------------------------------------|
+|abs() | Returns the absolute value of a number |
 all() Returns True if all items in an iterable object are true
 any() Returns True if any item in an iterable object is true
 ascii() Returns a readable version of an object. Replaces none-ascii
@@ -251,4 +253,4 @@ super() Returns an object that represents the parent class
 tuple() Returns a tuple
 type() Returns the type of an object
 vars() Returns the __dict__ property of an object
-zip() Returns an iterator, from two or more iterators
+|zip()| Returns an iterator, from two or more iterators|
