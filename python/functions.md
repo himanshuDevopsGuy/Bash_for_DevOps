@@ -227,30 +227,30 @@ map() Returns the specified iterator with the specified function applied
 to each item
 max() Returns the largest item in an iterable
 memoryview() Returns a memory view object
-min() Returns the smallest item in an iterable
-next() Returns the next item in an iterable
-object() Returns a new object
-oct() Converts a number into an octal
-open() Opens a file and returns a file object
-ord() Convert an integer representing the Unicode of the specified
+|min() |Returns the smallest item in an iterable
+|next() |Returns the next item in an iterable
+|object() | Returns a new object
+|oct()| Converts a number into an octal
+|open() |Opens a file and returns a file object
+|ord() |Convert an integer representing the Unicode of the specified
 character
-pow() Returns the value of x to the power of y
-print() Prints to the standard output device
-property() Gets, sets, deletes a property
-range() Returns a sequence of numbers, starting from 0 and increments by 1
+|pow() |Returns the value of x to the power of y
+|print() |Prints to the standard output device
+|property() |Gets, sets, deletes a property
+|range() |Returns a sequence of numbers, starting from 0 and increments by 1
 (by default)
-repr() Returns a readable version of an object
-reversed() Returns a reversed iterator
-round() Rounds a numbers
-set() Returns a new set object
-setattr() Sets an attribute (property/method) of an object
-slice() Returns a slice object
-sorted() Returns a sorted list
-staticmethod() Converts a method into a static method
-str() Returns a string object
-sum() Sums the items of an iterator
-super() Returns an object that represents the parent class
-tuple() Returns a tuple
-type() Returns the type of an object
-vars() Returns the __dict__ property of an object
+|repr() |Returns a readable version of an object
+|reversed() |Returns a reversed iterator
+|round()| Rounds a numbers
+|set() |Returns a new set object
+|setattr() |Sets an attribute (property/method) of an object
+|slice()| Returns a slice object
+|sorted() |Returns a sorted list
+|staticmethod()| Converts a method into a static method
+|str() |Returns a string object
+|sum() |Sums the items of an iterator
+|super()| Returns an object that represents the parent class
+|tuple()| Returns a tuple
+|type() |Returns the type of an object
+|vars() |Returns the __dict__ property of an object
 |zip()| Returns an iterator, from two or more iterators|
