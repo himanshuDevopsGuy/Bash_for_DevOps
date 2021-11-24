@@ -2,8 +2,8 @@
 
 
 ## Types of Functions in python
-- Custom Functions
-- Inbuilt Functions
+- userdefined Functions
+- Builtin Functions
 
 # Custom functions
 ## Definition
