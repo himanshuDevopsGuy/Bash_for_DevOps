@@ -173,7 +173,7 @@ def myfunc():
 myfunc()
 statement(s)
 ```
-#Python Builtin Functions
+# Python Builtin Functions
 | Function_name | Definition |
 | -----| ---------------------------------------|
 |abs() | Returns the absolute value of a number |
